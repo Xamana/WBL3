@@ -1,0 +1,28 @@
+.prompt {
+    &__container {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    &__text {
+        font-family: 'ALS Hauss VF', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 22px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    &__link {
+        padding:4px 6px 8px 6px;
+        display: inline-block;
+        border-radius: 8px;
+        background-color: #F6F6FA;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    &__gradient-text {
+        background: linear-gradient(90deg, #DA15B8 33%, #8D06CC 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
